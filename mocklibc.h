@@ -1,5 +1,5 @@
 // 声明 Rust 函数
-void _start();
-void hello();
-void puts(const char *s);
-void exit();
+extern void hello();
+extern void putchar(char c);
+extern void puts(const char *s);
+extern void exit();

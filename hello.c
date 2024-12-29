@@ -1,6 +1,7 @@
 #include "mocklibc.h"
 
 void main() {
-    puts("Hello from C!\n");
+    putchar('H');
+    putchar('\n');
     exit();
 }
